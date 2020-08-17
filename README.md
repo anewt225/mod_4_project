@@ -14,21 +14,60 @@ You will meet with your instructors on Monday to “pitch” your project idea. 
 
 - Business Understanding
 	- What is the business problem?
+        - Consulting for real estate company to find top 5 zip codes to invest in
+        - What is meant by zip code? Eg., are you looking for neighborhoods, cities, etc.?
+
 	- What questions will you be addressing?
+        - How to define top 5?
+        - What's relevant to investment?
+        - How does risk of loss compare over 5 year windows relative to areas of high return?
+        - Time-permitting - how much risk can be mitigated with cumulative value of expected rent over projected period of investment?
+        - How would recommendations have changed over time? I.e, would we have given same 5 zipcodes 10 years ago?
+        
    - Have you clearly defined your goal for your analysis?
+        - Output 5 zipcodes with best Risk-adjusted return
+        
    - Have your thought about who your audience is and how they would use this information?
+       - Audience is real-estate firm.
+       - They should use this information to determine where to begin search for investment properties
+       
    - How does this help the goals of the business/organization?
+       - Helps increase return by predicting most effective areas of investment.
+   
 - Data Understanding
    - What data are you using?
+       - Data available from zillow (given), expected rent data (time-permitting)
+       
    - How does your data help you answer the business question?
+       - Data has price, time, and zipcodes, so should help in predicting values
+       
    - How many observations does your dataset contain?
+       - 3,744,704
+       
    - What is the distribution of your data?
-   - What data types do you have?   
+       - count      14723.00000
+mean      305870.27100
+std       387052.96398
+min        22200.00000
+25%       138200.00000
+50%       212900.00000
+75%       353300.00000
+max     19314900.00000
+   - What data types do you have?
+       - Datetimes, Floats
+       
+       
 - Data Preparation
    - Have you looked/dealt with missing values?
+       - not yet
    - Have you done any data-type conversion?
-      - ex: numerical data incorrectly ‘typed’ as strings.
+      - Yes - to_datetime
+      
    - Does your data contain any outliers or non-sensical values?
+       - Yes, prices are not evenly distributed across US, requires further investigation
+       
+       
+   
    -     
 ### 3. CRISP-DM Check-In pt.2 - Tuesday
 - EDA/Visualization
