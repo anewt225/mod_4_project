@@ -29,6 +29,7 @@ You will meet with your instructors on Monday to “pitch” your project idea. 
         
    - Have your thought about who your audience is and how they would use this information?
        - Audience is real-estate firm.
+       - Potentially break down by capital constraints (e.g., lower, higher, middle)
        - They should use this information to determine where to begin search for investment properties
        
    - How does this help the goals of the business/organization?
